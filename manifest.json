@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Cat Vibes with Your Music",
+    "version": "1.0",
+    "description": "A cat that vibes with your music on YouTube.",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
