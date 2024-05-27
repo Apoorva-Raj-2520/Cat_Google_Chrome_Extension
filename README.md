@@ -1,4 +1,4 @@
-cat-vibes-extension/
+<name>-extension/
 ├── manifest.json
 ├── background.js
 ├── content.js
